@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.5f361e03.chunk.css",
-    "main.js": "/react-gh-pages/static/js/main.bd9b7c5d.chunk.js",
-    "main.js.map": "/react-gh-pages/static/js/main.bd9b7c5d.chunk.js.map",
-    "runtime-main.js": "/react-gh-pages/static/js/runtime-main.d21cc607.js",
-    "runtime-main.js.map": "/react-gh-pages/static/js/runtime-main.d21cc607.js.map",
-    "static/js/2.7b7f70aa.chunk.js": "/react-gh-pages/static/js/2.7b7f70aa.chunk.js",
-    "static/js/2.7b7f70aa.chunk.js.map": "/react-gh-pages/static/js/2.7b7f70aa.chunk.js.map",
-    "index.html": "/react-gh-pages/index.html",
-    "precache-manifest.b347b6e44474f53b46fecd3dff70f7b6.js": "/react-gh-pages/precache-manifest.b347b6e44474f53b46fecd3dff70f7b6.js",
-    "service-worker.js": "/react-gh-pages/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/react-gh-pages/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.7b7f70aa.chunk.js.LICENSE.txt": "/react-gh-pages/static/js/2.7b7f70aa.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/react-gh-pages/static/media/logo.5d5d9eef.svg"
+    "main.css": "/lisawagner/static/css/main.5f361e03.chunk.css",
+    "main.js": "/lisawagner/static/js/main.d4eda23b.chunk.js",
+    "main.js.map": "/lisawagner/static/js/main.d4eda23b.chunk.js.map",
+    "runtime-main.js": "/lisawagner/static/js/runtime-main.dc96037b.js",
+    "runtime-main.js.map": "/lisawagner/static/js/runtime-main.dc96037b.js.map",
+    "static/js/2.7b7f70aa.chunk.js": "/lisawagner/static/js/2.7b7f70aa.chunk.js",
+    "static/js/2.7b7f70aa.chunk.js.map": "/lisawagner/static/js/2.7b7f70aa.chunk.js.map",
+    "index.html": "/lisawagner/index.html",
+    "precache-manifest.d632159770e948b5d21611b6b05b4708.js": "/lisawagner/precache-manifest.d632159770e948b5d21611b6b05b4708.js",
+    "service-worker.js": "/lisawagner/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/lisawagner/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.7b7f70aa.chunk.js.LICENSE.txt": "/lisawagner/static/js/2.7b7f70aa.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/lisawagner/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d21cc607.js",
+    "static/js/runtime-main.dc96037b.js",
     "static/js/2.7b7f70aa.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.bd9b7c5d.chunk.js"
+    "static/js/main.d4eda23b.chunk.js"
   ]
 }
