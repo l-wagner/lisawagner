@@ -4,7 +4,7 @@ import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import { amber, blue, blueGrey } from '@material-ui/core/colors/';
 import { loadCSS } from 'fg-loadcss';
 
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 
 import logo from './logo.svg';
 import './App.css';
@@ -44,7 +44,7 @@ function App() {
 
     return (
         <MuiThemeProvider theme={theme}>
-            <Router>
+            <Router basename={'/'}>
                 <Header path={window.location.pathname} />
                 <Route path='/(solutions|)' render={() => <Solutions />} />
                 <Route path='/about' render={() => <About />} />
