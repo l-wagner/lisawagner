@@ -10,7 +10,7 @@ function About() {
     return (
         <div className={classes.root}>
             <Grid container spacing={3} direction='row' justify='center' alignItems='center'>
-                <Grid item xs={12} sm={4}>
+                <Grid item xs={12} sm={3}>
                     <Paper className={classes.paper} elevation={3}>
                         <img className={classes.img} src={img} />
                         <div className={classes.links}>
