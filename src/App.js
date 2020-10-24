@@ -11,6 +11,7 @@ import './App.css';
 import About from './About';
 import Header from './Header';
 import Solutions from './Solutions';
+import HappyEndings from './Solutions/HappyEndings';
 
 const theme = createMuiTheme({
     typography: {
@@ -48,6 +49,7 @@ function App() {
                 <Header path={window.location.pathname} />
                 <Route path='/(solutions|)' render={() => <Solutions />} />
                 <Route path='/about' render={() => <About />} />
+                <Route path='/happyendings' render={() => <HappyEndings />} />
             </Router>
         </MuiThemeProvider>
     );

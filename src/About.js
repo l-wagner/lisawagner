@@ -24,7 +24,7 @@ function About() {
                                 <Button href={require("./wagner_cv_19.pdf")} download="LisaWagner_CV">
                                     <span className={classes.cv}>CV</span>
                                 </Button>
-                                <Button href='mailto:lisa.wagner91@gmail.com'>
+                                <Button href='mailto:mail@lisawagner.io'>
                                     <Icon className='fa fa-envelope' />
                                 </Button>
                             </ButtonGroup>
