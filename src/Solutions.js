@@ -1,6 +1,65 @@
 import React, { useState } from 'react';
 import { makeStyles, ButtonBase, Typography, Container, Fade } from '@material-ui/core';
 import { Link } from 'react-router-dom';
+const images = [
+    {
+        url:
+            'https://images.unsplash.com/photo-1553060146-71667aa3f223?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80',
+        title: 'HAPPY ENDINGS',
+        link: '/happyendings',
+        width: '40%',
+    },
+    {
+        url:
+            'https://images.unsplash.com/photo-1562319926-4dbdecfa9962?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1580&q=80',
+        title: 'DYNAMIC DROPDOWNS IN EXCELJS',
+        hoverTitle: 'Exporting grids to xlsx with dynamic dropdowns. Without empty entries or range assignment quotation issues. ',
+        external: true,
+        target: '_blank',
+        link: 'https://gist.github.com/l-wagner/8648deaf1434b44ce1e768bb10df2c2c',
+        width: '30%',
+    },
+    {
+        url:
+            'https://images.unsplash.com/photo-1580582932707-520aed937b7b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3889&q=80',
+        title: 'COURSE MATERIAL',
+        external: true,
+        link: 'https://github.com/l-wagner/webDevFiles',
+        target: '_blank',
+        width: '30%',
+    },
+    {
+        url:
+            'https://images.unsplash.com/photo-1600429991827-5224817554f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80',
+        title: 'WHERE...IN DYNAMIC LIST ORACLEDB + NODE ',
+        hoverTitle: 'Querying for list matches in OracleDB using JS without quotation or other String representation issues.',
+        width: '25%',
+        external: true,
+        target: '_blank',
+        link: 'https://gist.github.com/l-wagner/8648deaf1434b44ce1e768bb10df2c2c',
+    },
+    {
+        url:
+            'https://images.unsplash.com/photo-1593720216276-0caa6452e004?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3824&q=80',
+        title: 'CUSTOM RENDERER IN REACT HANDSONTABLE',
+        hoverTitle: 'Custom rendering in Handsontable without losing editing functionality or change events.',
+        width: '35%',
+        external: true,
+        target: '_blank',
+        link: 'https://gist.github.com/l-wagner/f602f99d0d04afd78f429bb780aff96b',
+    },
+
+    {
+        url:
+            'https://images.unsplash.com/photo-1526721940322-10fb6e3ae94a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80',
+        title: 'GOODREADS PARSER',
+        hoverTitle: 'Pull your read books and parse them from XML to JSON. If you read more than 200, it pulls in API conform batches.',
+        width: '40%',
+        external: true,
+        target: '_blank',
+        link: 'https://gist.github.com/l-wagner/4fe3b5f8a9bbb459c1258d06bdd56628',
+    },
+];
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -94,66 +153,6 @@ function Solutions() {
     const classes = useStyles();
     const [isHovered, setIsHovered] = useState(false);
 
-    const images = [
-        {
-            url:
-                'https://images.unsplash.com/photo-1553060146-71667aa3f223?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80',
-            title: 'HAPPY ENDINGS',
-            link: '/happyendings',
-            width: '40%',
-        },
-        {
-            url:
-                'https://images.unsplash.com/photo-1562319926-4dbdecfa9962?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1580&q=80',
-            title: 'DYNAMIC DROPDOWNS IN EXCELJS',
-            hoverTitle: 'Exporting grids to xlsx with dynamic dropdowns. Without empty entries or range assignment quotation issues. ',
-            external: true,
-            target: '_blank',
-            link: 'https://gist.github.com/l-wagner/8648deaf1434b44ce1e768bb10df2c2c',
-            width: '30%',
-        },
-        {
-            url:
-                'https://images.unsplash.com/photo-1580582932707-520aed937b7b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3889&q=80',
-            title: 'COURSE MATERIAL',
-            external: true,
-            link: 'https://github.com/l-wagner/webDevFiles',
-            target: '_blank',
-            width: '30%',
-        },
-        {
-            url:
-                'https://images.unsplash.com/photo-1600429991827-5224817554f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80',
-            title: 'WHERE...IN DYNAMIC LIST ORACLEDB + NODE ',
-            hoverTitle: 'Querying for list matches in OracleDB using JS without quotation or other String representation issues.',
-            width: '25%',
-            external: true,
-            target: '_blank',
-            link: 'https://gist.github.com/l-wagner/8648deaf1434b44ce1e768bb10df2c2c',
-        },
-        {
-            url:
-                'https://images.unsplash.com/photo-1593720216276-0caa6452e004?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3824&q=80',
-            title: 'CUSTOM RENDERER IN REACT HANDSONTABLE',
-            hoverTitle: 'Custom rendering in Handsontable without losing editing functionality or change events.',
-            width: '35%',
-            external: true,
-            target: '_blank',
-            link: 'https://gist.github.com/l-wagner/f602f99d0d04afd78f429bb780aff96b',
-        },
-
-        {
-            url:
-                'https://images.unsplash.com/photo-1526721940322-10fb6e3ae94a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1651&q=80',
-            title: 'GOODREADS PARSER',
-            hoverTitle: 'Pull your read books and parse them from XML to JSON. If you read more than 200, it pulls in API conform batches.',
-            width: '40%',
-            external: true,
-            target: '_blank',
-            link: 'https://gist.github.com/l-wagner/4fe3b5f8a9bbb459c1258d06bdd56628',
-        },
-    ];
-
     return (
         <Container className={classes.root} component='section'>
             <Typography variant='h4' marked='center' align='center' component='h2'>
@@ -179,7 +178,14 @@ function Solutions() {
                         {image.external ? (
                             <a className={classes.imageButton} target={image.target} href={image.link}>
                                 <Typography component='h3' variant='h6' color='inherit' className={classes.imageTitle}>
-                                    {image.hoverTitle && isHovered === image.title ? image.hoverTitle : image.title}
+                                    {image.hoverTitle && isHovered === image.title ? (
+                                        <span>
+                                            <div> {image.title}</div>
+                                            {image.hoverTitle}
+                                        </span>
+                                    ) : (
+                                        image.title
+                                    )}
 
                                     <div className={classes.imageMarked}></div>
                                 </Typography>
