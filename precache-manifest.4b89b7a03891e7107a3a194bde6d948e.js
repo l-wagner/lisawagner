@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6a27985627fbd918d30dd07c34bc742c",
+    "revision": "31e3f0b840b5fa607e4031d95d4ea432",
     "url": "/index.html"
   },
   {
-    "revision": "3f1da5804c122a4c5c5e",
+    "revision": "356c16d82f8a29e7cac1",
     "url": "/static/css/main.075f5558.chunk.css"
   },
   {
@@ -16,12 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.5da22b50.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3f1da5804c122a4c5c5e",
-    "url": "/static/js/main.e25cdd5f.chunk.js"
+    "revision": "356c16d82f8a29e7cac1",
+    "url": "/static/js/main.98e52bab.chunk.js"
   },
   {
     "revision": "63db114f029e5a8a3587",
     "url": "/static/js/runtime-main.1fd567e1.js"
+  },
+  {
+    "revision": "c061bdd080c5dca976987bd8494a7bab",
+    "url": "/static/media/LisaWagner_Resume_2020.c061bdd0.pdf"
   },
   {
     "revision": "67be94fa51a1550ce67eae4d2e1a6c71",
@@ -34,9 +38,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
     "url": "/static/media/logo.5d5d9eef.svg"
-  },
-  {
-    "revision": "efef3044329e7007067c4e02b3d6069d",
-    "url": "/static/media/wagner_cv_19.efef3044.pdf"
   }
 ]);
