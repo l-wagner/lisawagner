@@ -21,7 +21,7 @@ function About() {
                                 <Button target='_blank' href='https://www.linkedin.com/in/lisa-wagner-62469296/'>
                                     <Icon className='fab fa-linkedin-in' />
                                 </Button>
-                                <Button href={require("./wagner_cv_19.pdf")} download="LisaWagner_CV">
+                                <Button href={require("./LisaWagner_Resume_2020.pdf")} download="LisaWagner_Resume_2020">
                                     <span className={classes.cv}>CV</span>
                                 </Button>
                                 <Button href='mailto:mail@lisawagner.io'>
